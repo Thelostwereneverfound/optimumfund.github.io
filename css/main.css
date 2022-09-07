@@ -259,7 +259,7 @@ blockquote cite:before {
 }
 
 blockquote cite a, blockquote cite a:visited {
-    color: #828282;
+    color: white;
     border: none;
 }
 
@@ -268,7 +268,7 @@ abbr {
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
-    color: #828282;
+    color: white;
 }
 
 var, kbd, samp, code, pre {
@@ -739,25 +739,25 @@ label > input[type="radio"] {
  * ## style placeholder text
  * ------------------------------------------------------------------- */
 ::-webkit-input-placeholder {
-    color: #828282;
+    color: white;
 }
 
 :-moz-placeholder {
-    color: #828282;
+    color: white;
     /* Firefox 18- */
 }
 
 ::-moz-placeholder {
-    color: #828282;
+    color: white;
     /* Firefox 19+ */
 }
 
 :-ms-input-placeholder {
-    color: #828282;
+    color: white;
 }
 
 .placeholder {
-    color: #828282 !important;
+    color: white !important;
 }
 
 
@@ -1252,7 +1252,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .subhead--dark {
-    color: grey;
+    color: white;
 }
 
 
@@ -1651,7 +1651,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 0.99rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: grey; 
+    color: white; 
     -webkit-transition: all 0.4s ease-in-out;
     transition: all 0.4s ease-in-out;
 }
@@ -1793,7 +1793,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .home-content h3 {
     font-family: "montserrat-medium", sans-serif;
     font-size: 1.9rem;
-    color: darkgray;
+    color: white;
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
@@ -2246,7 +2246,7 @@ html.no-csstransitions .home-content__main {
     position: relative;
     overflow: hidden;
     white-space: nowrap;
-    border-right: 1px solid rgba(255, 255, 255, 0.25);
+    border-right: 1px solid white;
 }
 
 .stats__col:last-child {
@@ -2307,7 +2307,7 @@ html.no-csstransitions .home-content__main {
         border: none;
     }
     .stats__col:nth-child(2n+1) {
-        border-right: 1px solid rgba(255, 255, 255, 0.25);
+        border-right: 1px solid white;
     }
 }
 
@@ -2625,7 +2625,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__cat {
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
     line-height: 1.714;
@@ -2954,7 +2954,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;
     padding-top: 15rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     position: relative;
 }
 
@@ -3018,7 +3018,7 @@ html.no-csstransitions .home-content__main {
 .contact-content {
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.2);
-    color: rgba(255, 255, 255, 0.4);
+    color: white;
     padding-top: 6rem;
     padding-bottom: 6rem;
     font-family: "montserrat-light", sans-serif;
@@ -3072,31 +3072,31 @@ html.no-csstransitions .home-content__main {
 .contact-content input::-webkit-input-placeholder,
 .contact-content select::-webkit-input-placeholder,
 .contact-content textarea::-webkit-input-placeholder {
-    color: #4f4f4f;
+    color: white;
 }
 
 .contact-content input:-moz-placeholder,
 .contact-content select:-moz-placeholder,
 .contact-content textarea:-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 18- */
+    color: white;    /* Firefox 18- */
 }
 
 .contact-content input::-moz-placeholder,
 .contact-content select::-moz-placeholder,
 .contact-content textarea::-moz-placeholder {
-    color: #4f4f4f;    /* Firefox 19+ */
+    color: white;    /* Firefox 19+ */
 }
 
 .contact-content input:-ms-input-placeholder,
 .contact-content select:-ms-input-placeholder,
 .contact-content textarea:-ms-input-placeholder {
-    color: #4f4f4f;
+    color: white;
 }
 
 .contact-content input.placeholder,
 .contact-content select.placeholder,
 .contact-content textarea.placeholder {
-    color: #4f4f4f !important;
+    color: white !important;
 }
 .contact-primary, .contact-secondary {
     float: left;
@@ -3434,25 +3434,25 @@ footer .row {
 }
 
 .footer-subscribe #mc-form input[type="email"]::-webkit-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 .footer-subscribe #mc-form input[type="email"]:-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: white;
     /* Firefox 18- */
 }
 
 .footer-subscribe #mc-form input[type="email"]::-moz-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: white;
     /* Firefox 19+ */
 }
 
 .footer-subscribe #mc-form input[type="email"]:-ms-input-placeholder {
-    color: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
 .footer-subscribe #mc-form input[type="email"].placeholder {
-    color: rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
 }
 
 .footer-subscribe #mc-form input[type=submit] {

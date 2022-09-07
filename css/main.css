@@ -431,7 +431,7 @@ table {
 th, td {
     padding: 1.5rem 3rem;
     text-align: left;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid white;
 }
 
 th {
@@ -621,7 +621,7 @@ select {
     padding: 1.5rem 0;
     border: 0;
     outline: none;
-    color: #333333;
+    color: white;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.4rem;
     line-height: 3rem;
@@ -803,8 +803,8 @@ input[type="button"] {
     cursor: pointer;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #c5c5c5;
-    border: .2rem solid #c5c5c5;
+    background-color: white;
+    border: .2rem solid white;
 }
 
 .btn:hover,
@@ -817,8 +817,8 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-    background-color: #b8b8b8;
-    border-color: #b8b8b8;
+    background-color: white;
+    border-color: white;
     color: #000000;
     outline: 0;
 }
@@ -1109,7 +1109,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     margin: .6rem 0 0 0;
     font-size: 1.4rem;
     font-family: "montserrat-regular", sans-serif;
-    color: #828282;
+    color: white;
 }
 
 
@@ -1123,7 +1123,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .skill-bars li {
     height: .6rem;
-    background: #c9c9c9;
+    background: white;
     width: 100%;
     margin-bottom: 6.9rem;
     padding: 0;
@@ -1402,7 +1402,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background: #959595;
+    background: white;
     border: none;
     line-height: 10px;
     padding: 0;
@@ -1472,7 +1472,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .header-nav {
     background: #0C0C0C;
-    color: rgba(255, 255, 255, 0.25);
+    color: white;
     font-family: "montserrat-light", sans-serif;
     font-size: 1.3rem;
     line-height: 1.846;
@@ -1496,7 +1496,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav a, .header-nav a:visited {
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
 }
 
 .header-nav a:hover,
@@ -1559,7 +1559,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__social li a {
-    color: rgba(255, 255, 255, 0.15);
+    color: white;
 }
 
 .header-nav__social li a:hover,
@@ -2222,7 +2222,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-about .section-header.has-bottom-sep::before {
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: white;
 }
 
 .about-desc {
@@ -2351,7 +2351,7 @@ html.no-csstransitions .home-content__main {
         display: block;
         height: 1px;
         width: 250px;
-        background-color: rgba(255, 255, 255, 0.25);
+        background-color: white;
         position: absolute;
         bottom: 0;
         left: 50%;
@@ -2588,7 +2588,7 @@ html.no-csstransitions .home-content__main {
     left: 50%;
     top: 50%;
     text-align: center;
-    color: rgba(255, 255, 255, 0.8);
+    color: white;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: all 0.5s ease-in-out;
@@ -2665,7 +2665,7 @@ html.no-csstransitions .home-content__main {
     content: "";
     height: 3rem;
     width: 1px;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: white;
     position: absolute;
     top: -3rem;
     left: 50%;
@@ -2749,7 +2749,7 @@ html.no-csstransitions .home-content__main {
     padding-top: 16.2rem;
     padding-bottom: 16.8rem;
     background-color: #e6e6e6;
-    color: #757575;
+    color: white;
     position: relative;
 }
 
@@ -2810,7 +2810,7 @@ html.no-csstransitions .home-content__main {
     font-family: "lora-regular", serif;
     font-size: 3rem;
     line-height: 1.8;
-    color: #555555;
+    color: white;
     margin-bottom: 6rem;
 }
 
@@ -3352,7 +3352,7 @@ footer {
     font-size: 15px;
     line-height: 2;
     text-align: center;
-    color: rgba(255, 255, 255, 0.3);
+    color: white;
 }
 
 footer h4 {
@@ -3494,7 +3494,7 @@ footer .row {
     content: "|";
     display: inline-block;
     padding: 0 1rem 0 1.2rem;
-    color: rgba(255, 255, 255, 0.05);
+    color: white;
 }
 
 .footer-bottom .copyright span:last-child::after {
@@ -3522,7 +3522,7 @@ footer .row {
     line-height: 60px;
     text-align: center;
     background: black;
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease-in-out;
